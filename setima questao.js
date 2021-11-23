@@ -21,7 +21,7 @@ var startsWithJ = properties.filter(property => (property[0] == 'j'));
 var newObject = {};
 
 for(i=0; i<startsWithJ.length; i++){
-   newObject[startsWithJ[i]] = myObject[startsWithJ[0]];
+   newObject[startsWithJ[i]] = myObject[startsWithJ[i]];
 }
 
 console.log(newObject);
